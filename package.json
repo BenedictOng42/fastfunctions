@@ -1,0 +1,52 @@
+{
+  "name": "quickutils",
+  "version": "0.0.0",
+  "description": "Faster than lodash",
+  "repository": "git@github.com:BenedictOng42/quickutils.git",
+  "author": "Benedict Ong, Ben Yap",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "utils"
+  ],
+  "files": [
+    "lib/**",
+    "dist/**"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "bugs": {
+    "url": "https://github.com/BenedictOng42/quickutils/issues"
+  },
+  "homepage": "https://github.com/BenedictOng42/quickutils",
+  "scripts": {
+    "setup": "yarn setup:install && yarn setup:husky",
+    "setup:install": "yarn install",
+    "setup:husky": "husky install",
+    "clean": "rm -rf ./lib/* ./dist/*",
+    "format": "prettier --write \"./src/**/*.ts\"",
+    "build": "yarn clean && yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc -p ./tsconfig.esm.json",
+    "build:cjs": "tsc -p ./tsconfig.cjs.json",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch --interactive",
+    "release-rc": "standard-version --prerelease rc",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "@types/jest": "27.0.1",
+    "@types/node": "16.4.8",
+    "husky": "7.0.1",
+    "jest": "27.0.6",
+    "prettier": "2.3.2",
+    "standard-version": "9.3.1",
+    "ts-node": "10.1.0",
+    "typescript": "4.3.5"
+  }
+}
