@@ -1,8 +1,8 @@
 {
-  "name": "quickutils",
+  "name": "fastfunctions",
   "version": "0.0.1",
   "description": "Faster than lodash",
-  "repository": "git@github.com:BenedictOng42/quickutils.git",
+  "repository": "git@github.com:BenedictOng42/fastfunctions.git",
   "author": "Benedict Ong, Ben Yap",
   "license": "MIT",
   "main": "dist/index.js",
@@ -19,9 +19,9 @@
     "lib": "lib"
   },
   "bugs": {
-    "url": "https://github.com/BenedictOng42/quickutils/issues"
+    "url": "https://github.com/BenedictOng42/fastfunctions/issues"
   },
-  "homepage": "https://github.com/BenedictOng42/quickutils",
+  "homepage": "https://github.com/BenedictOng42/fastfunctions",
   "scripts": {
     "setup": "yarn setup:install && yarn setup:husky",
     "setup:install": "yarn install",
