@@ -18,7 +18,10 @@
 export function closestNumberIndex(list: number[], index: number, limit?: number) {
   if (index < 0 || index >= list.length) return null;
   let distance = 1;
-  while (index - distance > 0 || index + distance < list.length || (limit && distance <= limit)) {
+  while (
+    (limit ? distance <= limit : true) &&
+    (index - distance > 0 || index + distance < list.length)
+  ) {
     if (typeof list[index + distance] === "number") return index + distance;
     if (typeof list[index - distance] === "number") return index - distance;
     distance++;

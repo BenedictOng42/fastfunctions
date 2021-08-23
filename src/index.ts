@@ -1,3 +1,3 @@
-export * from "./closestNumberIndex";
+export * from "./algorithms";
 export * from "./keyBy";
 export * from "./types";
