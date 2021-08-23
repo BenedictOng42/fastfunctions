@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/BenedictOng42/fastfunctions/compare/v0.0.3...v0.0.4) (2021-08-23)
+
+
+### Bug Fixes
+
+* empty package ([b06123e](https://github.com/BenedictOng42/fastfunctions/commit/b06123e02d92747ee95191aadca445ec66ed341e))
+
 ### 0.0.3 (2021-08-23)
 
 
