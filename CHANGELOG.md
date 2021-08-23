@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/BenedictOng42/fastfunctions/compare/v0.0.4...v0.0.5) (2021-08-23)
+
+
+### Bug Fixes
+
+* use named exports for keyBy ([ec1a4d5](https://github.com/BenedictOng42/fastfunctions/commit/ec1a4d5f7d8767fd32e14d019b94ff886e8c083e))
+
 ### [0.0.4](https://github.com/BenedictOng42/fastfunctions/compare/v0.0.3...v0.0.4) (2021-08-23)
 
 
