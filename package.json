@@ -13,8 +13,8 @@
     "utils"
   ],
   "files": [
-    "lib/**",
-    "dist/**"
+    "cjs/**",
+    "esm/**"
   ],
   "directories": {
     "lib": "lib"
