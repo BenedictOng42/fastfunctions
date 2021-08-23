@@ -1,4 +1,4 @@
-import keyByAsMap from "../keyByAsMap";
+import { keyByAsMap } from "../keyByAsMap";
 
 describe("keyByAsMap", () => {
   test("sunny scenario", () => {

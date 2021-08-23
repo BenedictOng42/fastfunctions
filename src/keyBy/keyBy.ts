@@ -1,4 +1,4 @@
-export default function keyBy<T extends { [key: string]: any }>(
+export function keyBy<T extends { [key: string]: any }>(
   objects: T[],
   field: keyof T
 ): { [key: string]: T } {

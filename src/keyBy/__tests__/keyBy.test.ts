@@ -1,4 +1,4 @@
-import keyBy from "../keyBy";
+import { keyBy } from "../keyBy";
 
 describe("keyBy", () => {
   test("sunny scenario", () => {
