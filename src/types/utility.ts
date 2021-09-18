@@ -1,4 +1,4 @@
-import { SetComplement, DeepReadonly } from "./mapped-types";
+import { SetComplement, DeepReadonly } from "./mapped";
 
 /**
  * Keys
@@ -35,22 +35,6 @@ export type Values<T extends object> = T[keyof T];
  *   type ReadOnlyProps = ReadOnly<Props>;
  */
 export type ReadOnly<T extends object> = DeepReadonly<T>;
-
-/**
- * Diff
- * @desc Get the set difference of a given object types `T` and `U` (`T \ U`)
- * @see https://flow.org/en/docs/types/utilities/#toc-diff
- * @example
- *   type Props = { name: string; age: number; visible: boolean };
- *   type DefaultProps = { age: number };
- *
- *   // Expect: { name: string; visible: boolean; }
- *   type RequiredProps = Diff<Props, DefaultProps>;
- */
-export type Diff<T extends U, U extends object> = Pick<
-  T,
-  SetComplement<keyof T, keyof U>
->;
 
 /**
  * PropertyType
