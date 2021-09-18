@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/BenedictOng42/fastfunctions/compare/v0.0.6...v0.0.7) (2021-09-18)
+
+
+### Bug Fixes
+
+* exporting of tryToCatch ([4c51ce6](https://github.com/BenedictOng42/fastfunctions/commit/4c51ce638b71e8d64c4fb628e5b4b8a47ec5b397))
+
 ### [0.0.6](https://github.com/BenedictOng42/fastfunctions/compare/v0.0.5...v0.0.6) (2021-09-18)
 
 ### [0.0.5](https://github.com/BenedictOng42/fastfunctions/compare/v0.0.4...v0.0.5) (2021-08-23)

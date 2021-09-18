@@ -1,6 +1,6 @@
 {
   "name": "fastfunctions",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Faster than lodash",
   "repository": "git@github.com:BenedictOng42/fastfunctions.git",
   "author": "Benedict Ong, Ben Yap",
