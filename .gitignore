@@ -74,7 +74,5 @@ typings/
 .keyfiles
 
 # Builds
-lib
-dist
-output
-*.backup
+esm
+cjs

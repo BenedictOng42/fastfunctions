@@ -162,17 +162,6 @@ export type OptionalKeys<T> = {
 }[keyof T];
 
 /**
- * Pick (complements Omit)
- * @desc From `T` pick a set of properties by key `K`
- * @example
- *   type Props = { name: string; age: number; visible: boolean };
- *
- *   // Expect: { age: number; }
- *   type Props = Pick<Props, 'age'>;
- */
-namespace Pick {}
-
-/**
  * PickByValue
  * @desc From `T` pick a set of properties by value matching `ValueType`.
  * Credit: [Piotr Lewandowski](https://medium.com/dailyjs/typescript-create-a-condition-based-subset-types-9d902cea5b8c)
