@@ -1,4 +1,4 @@
-import {  DeepReadonly } from "./mapped";
+import { DeepReadonly } from "./mapped";
 
 /**
  * Keys
